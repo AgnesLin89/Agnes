@@ -1,0 +1,6 @@
+cd C:\mqtt_video\media
+ffmpeg -i n_a01start.mp4 -vf scale=1440:1080 n_a01starts.mp4
+ffmpeg -i n_a00start.mp4 -vf scale=1440:1080 n_a00starts.mp4
+
+ffmpeg -i n_copy_56075006-6C8A-44C7-9591-1462B91F40C1.mp4 -vf scale=1440:1080 n_copy_56075006-6C8A-44C7-9591-1462B91F40C1s.mp4
+ffmpeg -i n_無聲的殺人告白-王迎先Final.mp4 -vf scale=1440:1080 n_無聲的殺人告白-王迎先Finals.mp4
