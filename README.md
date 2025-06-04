@@ -1,4 +1,4 @@
-🧠 作品名稱（暫定）
+🧠 作品名稱
 《無聲的殺人告白》
 
 🧾 創作構想說明
@@ -18,26 +18,24 @@
 
 TouchDesigner根據角度資訊即時控制影像播放與切換，使觀眾每個動作都成為敘事的一部分。
 
-
-
 材料：
 
 3D列印手槍外殼
-
 Arduino Nano33 iot 
-
 小型鋰電池、電線、開關
 
 
-🔌 接線說明
+🔌 接線說明 : 
 MPU6050（陀螺儀模組）：連接至Arduino I2C腳位（SCL → A5、SDA → A4）
 
 ESP8266 模組（WiFi）：透過UART與Arduino通訊（TX/RX）
 
 電源：使用可充電鋰電池模組，供電至Arduino與感測模組
 
+開關　：　控制供電時間
 
-🤖 AI在創作中的角色
+🤖 AI在創作中的角色 :　
+
 虛構AI靈媒視角的角色設定與敘事引導
 
 使用AI影像生成工具重建歷史人物表情（透過stable diffusion、Runway等）
@@ -46,5 +44,4 @@ ESP8266 模組（WiFi）：透過UART與Arduino通訊（TX/RX）
 
 🧪 使用技術與工具
 Arduino Nano + MPU6050（角度感測）
-
 ESP8266（WiFi模組）
